@@ -1,0 +1,42 @@
+body  {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+table {
+    border: solid 3px black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightgray;
+    border: solid 1px ;
+    height: 50px;
+    margin: 4px;
+}
+
+td {
+    border: solid 1px ;
+    height: 50px;
+    margin: 4px;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+}
+
+.Class1 {
+    width: 200px;
+}
+
+.Class2 {
+    width: 100px;
+}
+
+.RedMaker {
+    background-color: red;
+}
+
+.GreenMaker {
+    background-color: lightgreen;
+}

@@ -1,0 +1,42 @@
+body {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: 12px;
+}
+
+h1 {
+    color: orangered;
+}
+
+table {
+    border: solid 1px lightgray;
+    border-collapse: collapse;
+}
+
+td {
+    border: solid 1px black;
+    text-align: center;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+.nadruk {
+    font-weight: bold;
+}
+
+.Orangemaker {
+    background-color: orangered;
+    color: white;
+    font-size: 32px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;;
+    font-style: normal;
+}
+
+#imgsize {
+    width: 150px;
+}

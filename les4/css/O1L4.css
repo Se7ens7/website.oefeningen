@@ -1,0 +1,26 @@
+table {
+    border: solid 1px gray;
+    border-collapse: collapse;
+}
+
+table th {
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+table td {
+    border: solid 1px black;
+    text-align: center;
+    padding: 15px;
+}
+
+hr {
+    height: 1px;
+    color: darkblue;
+    background-color: darkblue;
+}
+
+caption {
+    caption-side: bottom;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    background-color: #00283c;
+    color: white;
+    height: 50px;
+    width: 75px;
+}
+
+.Top {
+    background-color: orangered;
+    font-weight: bold;
+    width: 75px;
+}
+
+.Top td {
+    color: white;
+    border-color: #00283c;
+}
+
+
+tr.Top td#Eerste {
+    background-color: orangered;
+    width: 75px;
+    height: 50px;
+}
