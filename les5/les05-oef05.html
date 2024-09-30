@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/L5O5.css" />
+  </head>
+  <body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" name="voornaam" id="voornaam" placeholder="Voornaam">
+        <label for="familienaam">Familienaam:</label>
+        <input type="text" name="familienaam" id="familienaam" placeholder="Familienaam">
+        <label for="adres">Adres:</label>
+        <input type="text" name="adres" id="adres" placeholder="Adres">
+        <label for="provincie">Provincie:</label>
+        <select name="provincie" id="provincie">
+            <option value="antwerpen">Antwerpen</option>
+            <option selected value="limburg">Limburg</option>
+            <option value="oost-vlaanderen">Oost-Vlaanderen</option>
+            <option value="vlaams-brabant">Vlaams-Brabant</option>
+            <option value="west-vlaanderen">West-Vlaanderen</option>
+            <option value="henegouwen">Henegouwen</option>
+            <option value="luik">Luik</option>
+            <option value="luxemburg">Luxemburg</option>
+            <option value="namen">Namen</option>
+            <option value="waals-brabant">Waals-Brabant</option>
+        </select>
+        <fieldset>
+            <legend>Geslacht</legend>
+            <label for="man">Man
+                <input type="radio" id="man" name="geslacht" value="man">
+            </label>
+            <label for="vrouw">Vrouw
+                <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+            </label>
+            <label for="ander">Ander
+                <input type="radio" id="ander" name="geslacht" value="ander">
+            </label>
+        </fieldset>
+        <label for="foto">Foto</label>
+        <input type="file" value="Bladeren" accept="image/png, image.jpeg">
+        <input type="submit" value="Registreren">
+    </form>
+  </body>
+</html>

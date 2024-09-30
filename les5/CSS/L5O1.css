@@ -1,0 +1,18 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.widemaker{
+    width: 40%;
+}
+
+.color
+{
+    background-color: lightblue;
+}
+
+label, input {
+    display: block;
+}
+

@@ -1,0 +1,27 @@
+body
+{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+fieldset
+{
+    box-shadow: 2px 2px lightgray;
+}
+
+form
+{
+    width: 20%;
+}
+
+input[type=text]:focus
+{
+    background-color: lightyellow;
+}
+
+input, fieldset, select
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 2px;
+}

@@ -1,0 +1,33 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset
+{
+    font-size: 12px;
+    text-align: left;
+    background-color: tan;
+}
+
+legend
+{
+    background-color: rgba(101, 1, 1, 0.995);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+form
+{
+    width: 25%;
+}
+
+.color
+{
+    background-color: tan;
+    width: 99%;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
