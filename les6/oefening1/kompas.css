@@ -1,0 +1,32 @@
+body
+{
+    background: url(kompas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.noord
+{   
+    color: white;
+    position: fixed;
+    left: 50%;
+}
+.oost
+{   
+    color: white;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+}
+.zuid
+{   
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+}
+.west
+{   
+    color: white;
+    position: fixed;
+    top: 50%;
+}

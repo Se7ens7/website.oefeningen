@@ -1,0 +1,47 @@
+.masterdiv
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.seconddiv
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main1
+{
+    width: 60%;
+    padding: 15px;
+}
+.main2
+{
+    width: 40%;
+    padding: 15px;
+}
+
+.main3
+{
+   width: 25%; 
+   padding: 15px;
+}
+
+.thirddiv
+{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (width < 500px)
+{
+    .seconddiv
+    {
+        flex-direction: column;
+    }
+    .thirddiv
+    {
+        flex-direction: column;
+    }
+}

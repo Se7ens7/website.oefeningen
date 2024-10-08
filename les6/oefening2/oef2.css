@@ -1,0 +1,44 @@
+.gridcontainer
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 3fr 20fr 1fr;
+    grid-gap: 5px;
+}
+
+.gridcontainer>div
+{
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.gridcontainerhead
+{
+    color: white;
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.gridcontaineraside
+{
+    color: white;
+    background-color: green;
+}
+.gridcontainermain
+{
+    color: white;
+    background-color: black;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.gridcontainerfooter
+{
+    color: white;
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+

@@ -1,0 +1,14 @@
+.content
+{
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.content> h1, p
+{
+    color: white;
+}

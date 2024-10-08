@@ -1,0 +1,37 @@
+body
+{
+    margin: 0px;
+}
+
+.header
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.parent
+{
+    display: flex;
+}
+
+.nav
+{
+    height: 500px;
+    width: 30%;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.content
+{
+    padding: 5px;
+}
